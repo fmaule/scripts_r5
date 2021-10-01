@@ -236,7 +236,6 @@ table<string, array<asset> > function GetAssets() {
     return file.range_assets
   case "mp_rr_canyonlands_mu1":
   case "mp_rr_canyonlands_mu1_night":
-    return {}
   case "mp_rr_canyonlands_64k_x_64k":
     return file.kc_assets
   case "mp_lobby":
